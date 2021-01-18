@@ -21,8 +21,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="409dp"
         android:layout_height="617dp"
         android:layout_marginTop="120dp"
@@ -37,6 +37,7 @@
 
 
     <LinearLayout
+        android:id="@+id/card_layout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -83,6 +84,31 @@
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
+        <Button
+            android:id="@+id/schedule_button"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Schedule"
+            android:layout_marginTop="335dp"
+            android:background="@drawable/button"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_cancel"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"/>
+
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

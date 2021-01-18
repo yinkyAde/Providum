@@ -7,6 +7,8 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.israel.providum.auth.LoginScreen;
+
 public class Splashscreen extends AppCompatActivity {
 
     @Override
@@ -19,7 +21,7 @@ public class Splashscreen extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent i = new Intent(Splashscreen.this, Dashboard.class);
+                Intent i = new Intent(Splashscreen.this, LoginScreen.class);
                 startActivity(i);
 
             }
